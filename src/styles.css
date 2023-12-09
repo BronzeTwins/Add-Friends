@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.friend-item {
+  width: 100%;
+  padding: 5px;
+}
+.friend-item label {
+  color: white;
+  font-size: 2rem;
+}
+
+.friend-item input,
+.friend-item .btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.friend-item .btn {
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  background: linear-gradient(45deg, rgb(1, 255, 1), rgb(0, 247, 255));
+}
+
+.friendsList {
+  color: white;
+  padding: 10px;
+}
+
+.friendsList ul li {
+  margin: 10px 10px;
+  list-style: none;
+}
+
+.friendsList ul li input,
+.friendsList ul li label,
+.friendsList ul li .btn {
+  margin-left: 10px;
+}
+
+.friendsList ul li .btn {
+  padding: 5px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  background: linear-gradient(45deg, rgb(255, 1, 1), rgb(255, 0, 81));
+}
